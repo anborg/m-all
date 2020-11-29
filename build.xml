@@ -16,6 +16,7 @@
         <module>../m-lib-amanda</module>
         <module>../m-lib-hansen</module>
         <module>../m-app-rest</module>
+        <module>../m-lib-amanda-soap</module>
     </modules>
 
     <build>
