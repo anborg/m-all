@@ -9,6 +9,9 @@
     <packaging>pom</packaging>
 
     <name>m-all</name>
+    <properties>
+        <maven.test.skip>false</maven.test.skip>
+    </properties>
 
     <modules>
         <module>../muni-model</module>
