@@ -20,6 +20,7 @@
         <module>../m-lib-hansen</module>
         <module>../m-app-rest</module>
         <module>../m-lib-amanda-soap</module>
+        <module>../m-react-admin</module>
     </modules>
 
     <build>
@@ -28,6 +29,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
                     <configuration>
                         <source>11</source>
                         <target>11</target>
