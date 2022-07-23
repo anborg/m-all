@@ -42,4 +42,16 @@
     <dependencies>
 
     </dependencies>
+    <repositories>
+        <repository>
+            <id>registry.quarkus.io</id>
+            <name>Quarkus community extension registry</name>
+            <url>https://registry.quarkus.io/maven</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
